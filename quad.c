@@ -24,9 +24,9 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <X11/X.h>       /* included by X11/Xlib automatically */
+#include <X11/X.h>       /* included by X11/Xlib automatically, added here for clarity. */
 #include <X11/Xlib.h>
-#include <GL/gl.h>       /* included by X11/Xlib automatically */
+#include <GL/gl.h>       /* included by X11/Xlib automatically, added here for clarity. */
 #include <GL/glx.h>      /* Manages interaction with X Window System and encodes OpenGL onto the X protocol stream for remote rendering. */
 #include <GL/glu.h>      /* the OpenGL utility library.  Provides functions for texture mipmaps, map coords between screen and object space, quadric surfaces and NURBS. */
 
