@@ -6,9 +6,9 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <X11/X.h>
+#include <X11/X.h>       /* included by X11/Xlib automatically */
 #include <X11/Xlib.h>
-#include <GL/gl.h>
+#include <GL/gl.h>       /* included by X11/Xlib automatically */
 #include <GL/glx.h>
 #include <GL/glu.h>
 
